@@ -1,0 +1,9 @@
+Enter a positive integer (0 to quit): 1 + 2 + ... + 100 = 5050 
+
+Enter a positive integer (0 to quit): 1 + 2 + ... + 1000 = 500500 
+
+Enter a positive integer (0 to quit): 1 + 2 + ... + 10000 = 50005000 
+
+Enter a positive integer (0 to quit): 1 + 2 + ... + 123456 = 7620753696 
+
+Enter a positive integer (0 to quit): 

@@ -1,0 +1,27 @@
+myfile
+myfile.txt
+numbers.txt
+output.txt
+summer
+summer.c
+/*
+    Calculates 1 + 2 + ... + k for each value of k entered by te user.
+*/
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+    while (1) {
+        printf("Enter a positive integer (0 to quit): ");
+
+        int k;
+        scanf("%d", &k);
+
+        if (k < 1) break;
+
+        unsigned long sum = (unsigned long) k * (k + 1) / 2;
+        printf("1 + 2 + ... + %d = %lu \n\n", k, sum);
+    }
+
+    printf("\n");
+    return 0;
+}
